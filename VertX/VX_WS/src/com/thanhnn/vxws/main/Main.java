@@ -10,7 +10,7 @@ public class Main extends AbstractVerticle {
 		DeloyUtil.deploySingleVerticle("com.thanhnn.vxws.main.Main");
 	
 	}
-	
+	//test git
 	public void start(Future<Void> startFuture) {
 		vertx.createHttpServer()
 			 .requestHandler(r -> {
